@@ -65,6 +65,9 @@
 
       &::-webkit-scrollbar {
         display: none;
+//         Bu CSS kod bloğu, web sayfalarında bulunan kaydırma çubuğunu gizlemek için kullanılır.
+// ::-webkit-scrollbar CSS özelliği, yalnızca WebKit tabanlı tarayıcılarda (Google Chrome, Safari, Opera vb.) kullanılabilir. Diğer tarayıcılarda (Mozilla Firefox, Microsoft Edge gibi) farklı bir özellik adı kullanılır.
+// display: none; CSS özelliği, seçilen öğenin görünmez olmasını sağlar. ::-webkit-scrollbar seçicisi ile birlikte kullanıldığında, kaydırma çubuğunu tamamen gizler.
       }
     }
   }

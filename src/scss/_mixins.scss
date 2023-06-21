@@ -30,3 +30,20 @@
     @content;
   }
 }
+
+
+// Bu SCSS (Sassy CSS) mixinleri, farklı ekran boyutları için medya sorgularını tanımlar. Mixinler, belirli koşulların ekran genişliğine dayalı olarak karşılandığı durumlarda uygulanacak CSS kodunu yazmanıza olanak tanır.
+
+// İşte her mixin'in açıklaması:
+
+// @mixin media-xsm: Bu mixin, ekran genişliği 0 pikselden büyük olduğunda (@media screen and (min-width: 0px)) içeriği (@content) uygular. Bu, en küçük ekran boyutunda kullanılmak üzere tasarlanmış bir mixin gibi görünüyor.
+
+// @mixin media-sm: Bu mixin, ekran genişliği 576 pikselden büyük olduğunda (@media screen and (min-width: 576px)) içeriği (@content) uygular. Bu, küçük ekranlı cihazlar için kullanılmak üzere tasarlanmış bir mixin gibi görünmektedir.
+
+// @mixin media-md: Bu mixin, ekran genişliği 768 pikselden büyük olduğunda (@media screen and (min-width: 768px)) içeriği (@content) uygular. Bu, orta boyutlu ekranlı cihazlar için kullanılmak üzere tasarlanmış bir mixin gibi görünmektedir.
+
+// @mixin media-lg: Bu mixin, ekran genişliği 1024 pikselden büyük olduğunda (@media screen and (min-width: 1024px)) içeriği (@content) uygular. Bu, büyük ekranlı cihazlar için kullanılmak üzere tasarlanmış bir mixin gibi görünmektedir.
+
+// @mixin media-xl: Bu mixin, ekran genişliği 1600 pikselden büyük olduğunda (@media screen and (min-width: 1600px)) içeriği (@content) uygular. Bu, çok büyük ekranlı cihazlar için kullanılmak üzere tasarlanmış bir mixin gibi görünmektedir.
+
+// Bu mixinler, SCSS dosyalarında farklı ekran boyutlarına özgü stil tanımlamaları yapmanızı kolaylaştıran kullanışlı bir araçtır.
