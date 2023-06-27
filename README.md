@@ -1,3 +1,44 @@
+# Horoscope
+## Description
+Project aims to create Horoscope project
+## Project Skeleton
+```
+ find-the-number-game(folder)
+|----public
+        |----index.html
+|----src        
+        |----components
+                 |----Header
+                          |----Header.jsx
+                          |----Header.scss
+                 |----Main
+                          |----Card.jsx
+                          |----Main.jsx
+                          |----Main.scss
+                 |----Navbar
+                          |----Navbar.jsx
+                          |----Navbar.scss
+       |----helpers 
+                 |----data.js
+                 |----logo.png
+       |----scss
+                 |----_mixins.scss
+                 |----_reset.scss
+                 |----_variables.scss
+       |----App.js
+       |----app.scss
+       |----index.css
+       |----index.js
+|----readme.md  
+
+```
+## Project-gif
+![JavaScript-project](https://raw.githubusercontent.com/achieve-software/achieve-software/main/img/r6horoscop-min.gif)
+## Project-link
+https://cerulean-rabanadas-5ac495.netlify.app/#tarot
+### At the end of the project, following topics are to be covered;
+-React
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
