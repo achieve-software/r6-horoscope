@@ -3,7 +3,6 @@
 Project aims to create Horoscope project
 ## Project Skeleton
 ```
- find-the-number-game(folder)
 |----public
         |----index.html
 |----src        
